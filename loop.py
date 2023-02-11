@@ -19,6 +19,7 @@ i = 0
 
 # for usuario in usuarios:
 #     if usuario == "roberto":
+#         breaK
 #         continue
 #     print(usuario)
 
@@ -35,4 +36,3 @@ i = 0
 #     for edad in edades:
 #         print(usuario, edad)
 
-def miFuncion()
