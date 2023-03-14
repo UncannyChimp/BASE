@@ -73,3 +73,34 @@ for x in palabra:
 
 print (vocales)
 
+#Escribir una aplicación que reciba una cantidad infinita de números hasta decir basta
+#Luego que devuelva la suma de los números ingresados.
+ 
+""" lista = []
+
+print ('Ingrese números y para salir escriba "basta"')
+while True:
+    valor = input('Ingrese valor: ')
+    if valor == 'basta':
+        break
+    else:
+        try:
+            valor = int(valor)
+            lista.append(valor)
+        except:
+            print('Dato no valido')
+            exit()
+
+resultado = 0
+for x in lista:
+    resultado += x
+
+print(resultado) """
+
+#Escribir una función que reciba nombre y apellido y los vaya agregando a un archivo
+def agregaNombreAArchivo(nombre, apellido):
+    c = open('nombrecompleto.txt', 'a')
+    c.write(nombre + ' ' + apellido + '\n')
+    c.close()
+
+agregaNombreAArchivo('Nicolas', 'Schurman')
