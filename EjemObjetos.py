@@ -21,10 +21,14 @@ def funcionMuestra(accion):
     else:
         print("No reconozco la eleccion")
 
+def funcionAccion(accion):
+    if accion == "a":
+        
+
 def main():
     accion = ""
     accion = funcionPregunta(accion)
     funcionMuestra(accion)
-    print (accion)
+    funcionAccion(accion)
 
 main()
